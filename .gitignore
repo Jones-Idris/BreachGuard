@@ -2,3 +2,6 @@ breachguard
 results.json
 results.csv
 *.log
+emails.txt
+*.txt
+!sample_emails.txt
