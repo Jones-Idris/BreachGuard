@@ -59,10 +59,12 @@ Human-readable format with summarized breach data.
 ### Example
 
 +----------------------+----------+-------+-----------------------------------------------+
-| EMAIL            | BREACHED | COUNT   | BREACHES                                        |
+| EMAIL | BREACHED | COUNT | BREACHES |
 +----------------------+----------+-------+-----------------------------------------------+
-| user@example.com | YES      | 3       | Adobe (2013), LinkedIn (2012), Dropbox (+1)     |
-| safe@email.com   | NO       | 0       | -                                               |
+| user@example.com
+ | YES | 3 | Adobe (2013), LinkedIn (2012), Dropbox (+1) |
+| safe@email.com
+ | NO | 0 | - |
 +----------------------+----------+-------+-----------------------------------------------+
 
 
