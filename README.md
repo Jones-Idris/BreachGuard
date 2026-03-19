@@ -36,7 +36,7 @@ Run a scan:
 Example: 
  
 ```bash
-./breachguard scan emails.txt --delay 7s --output table
+./breachguard scan sample_emails.txt --delay 7s --output table
 ```
 
 ## Flags
