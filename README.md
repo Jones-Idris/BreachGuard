@@ -51,11 +51,9 @@ flag				Description			Default
 ## Output Format 
 
 Table (Default):
-
 Human readable format with summarized breach data.
 
 Example:
-
 +----------------------+----------+-------+-----------------------------------------------+
 | EMAIL                | BREACHED | COUNT | BREACHES                                      |
 +----------------------+----------+-------+-----------------------------------------------+
@@ -63,14 +61,6 @@ Example:
 | safe@email.com       | NO       | 0     | -                                             |
 +----------------------+----------+-------+-----------------------------------------------+
 
-
-
-
-
-
-
-^G Help          ^O Write Out     ^F Where Is      ^K Cut           ^T Execute       ^C Location      M-U Undo         M-A Set Mark     M-] To Bracket   M-B Previous     ◂ Back
-^X Exit          ^R Read File     ^\ Replace       ^U Paste         ^J Justify       ^/ Go To Line    M-E Redo         M-6 Copy         ^B Where Was 
 
 
 
