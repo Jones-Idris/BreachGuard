@@ -41,27 +41,29 @@ Example:
 
 ## Flags
 
-flag				Description			Default
+| Flag | Description | Default |
+|------|------------|--------|
+| `--delay` | Delay between API requests | `7s` |
+| `--output` | Output format (`table`, `json`, `csv`) | `table` |
+| `--only-breached` | Show only breached emails | `false` |
+| `--demo` | Use demo mode (no API calls) | `false` |
 
---delay			Delay between API requests		7s
---output		Output format (table,json,csv)		table
---only-breached		Show only breached emails 		false
---demo 			Use only demo mode (no api calls)	false
+---
 
-## Output Format 
+## Output Format
 
-Table (Default):
-Human readable format with summarized breach data.
+### Table (Default)
 
-Example:
+Human-readable format with summarized breach data.
+
+### Example
+
 +----------------------+----------+-------+-----------------------------------------------+
-| EMAIL                | BREACHED | COUNT | BREACHES                                      |
+| EMAIL            | BREACHED | COUNT   | BREACHES                                        |
 +----------------------+----------+-------+-----------------------------------------------+
-| user@example.com     | YES      | 3     | Adobe (2013), LinkedIn (2012), Dropbox (+1)   |
-| safe@email.com       | NO       | 0     | -                                             |
+| user@example.com | YES      | 3       | Adobe (2013), LinkedIn (2012), Dropbox (+1)     |
+| safe@email.com   | NO       | 0       | -                                               |
 +----------------------+----------+-------+-----------------------------------------------+
-
-
 
 
 
