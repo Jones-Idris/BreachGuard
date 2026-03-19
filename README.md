@@ -1,6 +1,6 @@
 # BreachGuard
 
-BreachGuard is a Go CLI tool for checking email addresses against known data breaches using the Have I Been Pwned API.
+BreachGuard is a Go CLI tool for batch-checking email addresses against known data breaches using the Have I Been Pwned API.
 
 Built by Dzounz Eedriz.
 
