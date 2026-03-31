@@ -52,6 +52,12 @@ func runScan(cmd *cobra.Command, args []string) error {
 	cfg := config.Load()
 	client := hibp.NewClient(cfg.APIKey, demoMode)
 
+if !demoMode && strings.TrimSpace(cfg.APIKey) == "" {
+	fmt.Println("Error: HIBP_API_KEY is not set")
+	fmt.Println("Set it using: export HIBP_API_KEY='your_api_key'")
+	os.Exit(1)
+}
+
 	scanner := bufio.NewScanner(f)
 	seen := make(map[string]struct{})
 	var results []hibp.Result
